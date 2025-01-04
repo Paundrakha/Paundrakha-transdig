@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Belajar Web Programming" />
+    <title>Paundrakha(23050630099)</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #00b09b, #96c93d);
+      color: #333;
+    }
+
+    header {
+      background-color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      color: #333;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #00b09b;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+
+    nav ul li a:hover {
+      color: #96c93d;
+      transition: color 0.3s ease-in-out;
+    }
+
+    main {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: 50px auto 0 auto; /* Menambahkan margin-top 50px */
+      background-color: #fff;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    h2 {
+      color: #00b09b;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      line-height: 1.8;
+      font-size: 1.1rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      list-style: none; /* Menghilangkan bullet points */
+      padding: 0;
+      margin: 0;
+    }
+
+    .btn {
+      display: block;
+      background-color: #00b09b;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #96c93d;
+      transform: translateY(-5px);
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      main {
+        padding: 30px 15px;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .btn {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+
+      .btn {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+      }
+    }
+  </style>
+  <body>
+    <header>
+      <h1>Belajar HTML pada MK Transformasi Digital</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>Tentang Proyek Ini</h2>
+        <p>
+          Ini adalah serangkaian halaman web yang dibuat untuk belajar
+          pemrograman web dasar menggunakan HTML,CSS dan JavaScript.
+          Halaman-halaman ini menampilkan penggunaan elemen-elemen penting
+          seperti heading, paragraph, link, dan lainnya.
+        </p>
+      </section>
+
+      <section>
+        <h2>Daftar Halaman</h2>
+        <ul class="grid">
+          <li>
+            <a href="https://tourmaline-hotteok-1870b8.netlify.app/" class="btn"
+              >Belajar 01</a
+            >
+          </li>
+          <li>
+            <a href="https://spontaneous-choux-e64adc.netlify.app/" class="btn"
+              >Belajar 02</a
+            >
+          </li>
+          <li>
+            <a href="https://cosmic-druid-297cc9.netlify.app/" class="btn"
+              >Belajar 03</a
+            >
+          </li>
+          <li>
+            <a href="https://ephemeral-crostata-8c95cf.netlify.app/" class="btn"
+              >Belajar 04</a
+            >
+          </li>
+          <li>
+            <a href="https://reliable-semolina-c6917a.netlify.app/" class="btn"
+              >Belajar 05</a
+            >
+          </li>
+          <li>
+            <a href="https://stirring-douhua-23819e.netlify.app/" class="btn"
+              >Belajar 06</a
+            >
+          </li>
+          <li>
+            <a href="https://clever-lolly-20137b.netlify.app/" class="btn"
+              >Belajar 07</a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/" class="btn">Youtube</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
