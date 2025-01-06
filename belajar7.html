@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paudrakha(23050630099)</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+      }
+      #counter {
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 1em;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 font-style="bold">Apa yang bisa dilakukan Javascript</h1>
+    <p>Javascript dapat mengubah konten HTML</p>
+    <div id="counter">0</div>
+    <button onclick="incrementCounter()">Tambah</button>
+    <button onclick="decrementCounter()">Kurang</button>
+    <button onclick="resetCounter()">Reset</button>
+    <p>Transformasi Digital</p>
+    <script>
+      let count = 0;
+
+      function incrementCounter() {
+        count++;
+        updateCounter();
+      }
+
+      function decrementCounter() {
+        count--;
+        updateCounter();
+      }
+
+      function resetCounter() {
+        count = 0;
+        updateCounter();
+      }
+
+      function updateCounter() {
+        document.getElementById("counter").textContent = count;
+      }
+    </script>
+  </body>
+</html>
